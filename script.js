@@ -26,12 +26,19 @@ async function fetchDriverStandings(season, round) {
 
 
 const constructorLogos = {
-    'Mercedes': 'Homework/media/Mercedes_benz.jpeg',
-    'Ferrari': 'Homework/media/ferrari.png',
-    'Honda': 'Homework/media/Honda.jpeg',
-    'Aston Martin': 'Homework/media/Aston_martin.png',
-    'Renault': 'Homework/media/Renault.png',
-};
+    'Mercedes': './media/Mercedes_benz.jpeg',
+    'Ferrari': './media/ferrari.png',
+    'Honda': './media/Honda.jpeg',
+    'Aston Martin': './media/Aston_martin.png',
+    'Renault': './media/Renault.png',
+    'Red Bull': './media/Honda.jpeg',
+    'Mclaren': './media/Mercedes_benz.jpeg',
+    'Racing Point': './media/Aston_martin',
+    'AlphaTauri': './media/Honda.jpeg',
+    'Alfa Romeo':'./media/ferrari.png',
+    'Williams':'./media/Mercedes_benz.jpeg',
+    'Haas F1 Team':'./media/ferrari.png',
+};  
 
 function populateTable(driverStandings) {
     const table = document.getElementById('f1Table');
